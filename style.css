@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font: 62.5%;
+}
+body {
+    --azulDawn: #d0e3ff;
+    --azulChina: #7096d1;
+    --azulSky: #bad6eb;
+    --azulMidnight: #081f5c;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.6rem;
+    background-color: var(--azulSky);
+}
+header {
+    text-align: center;
+}
+h1 {
+    padding: 30px;
+    color: var(--azulMidnight);
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.171);
+
+}
+section {
+    background-color: var(--azulDawn);
+    border-radius: 10px;
+    padding: 30px;
+    width: 900px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.353);
+    color: var(--azulMidnight);
+    line-height: 60px;
+}
+input {
+    width: 100px;
+    height: 30px;
+    font-size: 1.2rem;
+    text-align: center081f5c;
+}
+button#botaoCalcular {
+    font-family: 'courier new';
+    font-weight: bold;
+    color: #14396A;
+    font-size: 15px;
+    padding: 6px 9px;
+    border-radius: 40px;
+    border: 0px solid #3866A3;
+    background: #63B8EE;
+    background: linear-gradient(to top, #63B8EE, #63B8EE);
+}
+button#botaoCalcular:hover {
+    color: #14396A;
+    background: #BAD6EB;
+    background: linear-gradient(to top, #BAD6EB, #BAD6EB);
+}
+button#botaoImprimir {
+    font-family: 'courier new';
+    font-weight: bold;
+    color: #14396A;
+    font-size: 15px;
+    padding: 6px 9px;
+    border-radius: 40px;
+    border: 0px solid #3866A3;
+    background: #63B8EE;
+    background: linear-gradient(to top, #63B8EE, #63B8EE);
+}
+button#botaoImprimir:hover {
+    color: #14396A;
+    background: #BAD6EB;
+    background: linear-gradient(to top, #BAD6EB, #BAD6EB);
+}

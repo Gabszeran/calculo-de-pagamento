@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Folha de pagamento</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Cálculo de pagamento</h1>
+    </header>
+
+    <section>
+        <p>Digite o valor da sua hora trabalhada:</p>
+        <input type="number" id="horaTrabalhada">
+        <p>Digite a quantidade de horas trabalhadas no mês:</p>
+        <input type="number" id="totalHoras"><br>
+
+        <button onclick="calculo()" id="botaoCalcular">Calcular</button>
+
+        <div id="resultado"></div>
+        <button id="botaoImprimir">Imprimir</button>
+    </section>
+    
+    <footer>
+
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
